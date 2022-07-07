@@ -61,13 +61,19 @@ var numero2= Number(prompt("numero:"));
 var numero3= Number(prompt("numero:"));
 
 if (numero1 >= numero2)
-    if (numero1 > numero3)
-        document.write("el numero1 " + numero1 + " es el mayor");
+    if (numero1 >= numero3)
+        document.write("el numero " + numero1 + " es el mayor");
     else
-        document.write("el numero3 " + numero3 + " es el mayor");
+        document.write("el numero " + numero3 + " es el mayor");
 
 else if (numero2 > numero1)
-        if (numero2 > numero3)
-            document.write("el numero2 " + numero2 + " es el mayor");
+        if (numero2 >= numero3)
+            document.write("el numero " + numero2 + " es el mayor");
         else
-            document.write("el numero3 " + numero3 + " es el mayor");
+            document.write("el numero" + numero3 + " es el mayor");
+
+else if (numero1 >= numero3)
+            if (numero1 >= numero2)
+                document.write("el numero " + numero1 + " es el mayor");
+            else
+                document.write("el numero" + numero2 + " es el mayor");

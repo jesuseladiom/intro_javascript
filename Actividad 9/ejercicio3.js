@@ -1,4 +1,5 @@
-var num= Number(prompt("ingresa un numero:"));
+//var num= Number(prompt("ingresa un numero:"));
+const num=6;
 
 function factorialRecursivo (n) { 
 	if (n == 0){ 

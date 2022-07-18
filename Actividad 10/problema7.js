@@ -30,9 +30,7 @@ function propiedad(objeto){
         if (typeof(value)=='object') 
             propiedad(value);
         else if (key=="id") veces++;
-            //console.log(`${key}: ${value}`);
-        //console.log(typeof(value));
-        //console.log(`${key}: ${value}`);
+
     });
     return veces;
 }

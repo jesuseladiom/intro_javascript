@@ -1,0 +1,9 @@
+.bg-transformers{
+    /*background-image: url(./bgtransformers.jpg); */
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/07/optimus-prime-bumblebee-transformers-2410345.jpg?itok=X3b2hp_m');
+}
+
+.object-fit {
+    object-fit: cover;
+    height: 100%;
+}
